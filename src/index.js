@@ -12,8 +12,10 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   
     
-  <><App />
-  <Hello />
+  <>
+   <App />
+   <Hello />
+   <Btn />
    <Btn />
   <Profile />
   </>
