@@ -5,11 +5,13 @@ import App from './App';
 import Hello from './Helo';
 
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   
     
-  <><App />
+  <>
+  <App />
   <Hello />
   </>
   
