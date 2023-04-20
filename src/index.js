@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 
 import App from './App';
 import Hello from './Helo';
+import Profile from './img';
 
 
 
@@ -13,6 +14,7 @@ root.render(
   <>
   <App />
   <Hello />
+  <Profile />
   </>
   
 
