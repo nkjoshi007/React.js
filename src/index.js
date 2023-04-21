@@ -7,6 +7,7 @@ import Profile from './img';
 import Btn from './Clickbtn';
 import Cls from './Cls';
 import FizzBuzz from './FizzBuzz';
+import Eventr from './events';
 
 
 
@@ -19,7 +20,7 @@ root.render(
    <App />
    <Hello />
    <Btn />
-   <Btn />
+   <Eventr />
   <Profile />
   <FizzBuzz />
   <Cls />

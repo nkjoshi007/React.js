@@ -5,3 +5,14 @@
 .avatar {
     border-radius: 50%;
   }
+  .btn{
+    margin: 25px;
+    max-width: 25%;
+  }
+  .btns{
+    display: flex;
+    margin: auto;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+  }
