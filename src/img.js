@@ -1,4 +1,4 @@
-import './style.css';
+
 const user = {
     name: 'Hedy Lamarr',
     imageUrl: 'https://i.imgur.com/yXOvdOSs.jpg',
