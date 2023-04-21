@@ -5,6 +5,8 @@ import App from './App';
 import Hello from './Helo';
 import Profile from './img';
 import Btn from './Clickbtn';
+import Cls from './Cls';
+
 
 
 
@@ -18,6 +20,7 @@ root.render(
    <Btn />
    <Btn />
   <Profile />
+  <Cls />
   </>
   
 
