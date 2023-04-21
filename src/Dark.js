@@ -10,7 +10,7 @@ const Dark = ()=>{
     return(
         <div>
         <button className="btn" onClick={dark}>Dark theme</button>
-        <button className="btn" onClick={white}>normal theme</button>
+        <button className="btn" onClick={white}>light theme</button>
         </div>
     )
 }
