@@ -8,6 +8,8 @@ import Btn from './Clickbtn';
 import Cls from './Cls';
 import FizzBuzz from './FizzBuzz';
 import Eventr from './events';
+import Dark from './Dark';
+
 
 
 
@@ -24,6 +26,7 @@ root.render(
   <Profile />
   <FizzBuzz />
   <Cls />
+  <Dark />
   </>
   
 
