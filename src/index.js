@@ -10,6 +10,8 @@ import FizzBuzz from './FizzBuzz';
 import Eventr from './events';
 import Dark from './Dark';
 import Clickcount from './Clicksamecount';
+import List from './Rendering_lists';
+
 
 
 
@@ -29,6 +31,7 @@ root.render(
   <Cls />
   <Dark />
   <Clickcount />
+  <List />
   </>
   
 
