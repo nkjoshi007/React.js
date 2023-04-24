@@ -9,6 +9,10 @@ import Cls from './Cls';
 import FizzBuzz from './FizzBuzz';
 import Eventr from './events';
 import Dark from './Dark';
+import Clickcount from './Clicksamecount';
+import List from './Rendering_lists';
+import Profileimg from './Profile1';
+
 
 
 
@@ -27,6 +31,9 @@ root.render(
   <FizzBuzz />
   <Cls />
   <Dark />
+  <Clickcount />
+  <List />
+  <Profileimg />
   </>
   
 
