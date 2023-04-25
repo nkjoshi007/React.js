@@ -13,11 +13,6 @@ import Clickcount from './Clicksamecount';
 import List from './Rendering_lists';
 import Profileimg from './Profile1';
 
-
-
-
-
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   
