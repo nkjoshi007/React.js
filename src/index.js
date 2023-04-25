@@ -14,6 +14,7 @@ import List from './Rendering_lists';
 import Profileimg from './Profile1';
 import Respondevents from './Events_respond';
 import Mail from './Mail';
+import Diffinc from './Diffinc';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -33,6 +34,7 @@ root.render(
   <Profileimg />
   <Respondevents/>
   <Mail/>
+  <Diffinc/>
   </>
   
 
