@@ -13,6 +13,7 @@ import Clickcount from './Clicksamecount';
 import List from './Rendering_lists';
 import Profileimg from './Profile1';
 import Respondevents from './Events_respond';
+import Mail from './Mail';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -31,6 +32,7 @@ root.render(
   <List />
   <Profileimg />
   <Respondevents/>
+  <Mail/>
   </>
   
 
