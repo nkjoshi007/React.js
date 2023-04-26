@@ -42,10 +42,35 @@
     margin: 25px 0px 25px 0px;
     background-image: linear-gradient(rgb(255, 255, 0),rgb(224, 152, 152));
   }
-  .profile img{
+  profile img{
     width: 100px;
     height: 100px;
     border-radius: 20px;
   }
-  
+  .profilechange{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .profilechange div{
+   margin: 50px;
+   padding: 10px;
+
+  }
+  .profilechange img{
+width: 150px;
+height: 150px;
+border-radius: 100px;
+margin-left: 50px;
+margin-top: 50px;
+  }
+  .profilechange1{
+background-image: linear-gradient(brown,black);    
+color: white;
+  }
+  .profilechange1 h1{
+text-align: center;  
+color: #393d31;
+}
+
   

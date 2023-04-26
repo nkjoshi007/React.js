@@ -15,6 +15,7 @@ import Profileimg from './Profile1';
 import Respondevents from './Events_respond';
 import Mail from './Mail';
 import Diffinc from './Diffinc';
+import Profilechanger from './Proflechanger';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -35,6 +36,7 @@ root.render(
   <Respondevents/>
   <Mail/>
   <Diffinc/>
+  <Profilechanger/>
   </>
   
 
