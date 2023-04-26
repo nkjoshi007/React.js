@@ -28,7 +28,20 @@ const Profileimg = () => {
       phone: phone,
       status: status,
     };
-    setArr([...arr, obj]);
+    if(name===""){
+      alert("name is khaali plz fill this up")
+    }else if(image===""){
+      alert("image is khaali plz fill this up")
+    }
+    else if(phone===""){
+      alert("phone is khaali plz fill this up")
+    }
+    else if(status===""){
+      alert("status is khaali plz fill this up")
+    }else{
+      
+      setArr([...arr, obj]);
+    }
   };
   return (
     <>
