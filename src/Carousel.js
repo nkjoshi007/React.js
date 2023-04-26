@@ -1,9 +1,9 @@
 import { useState } from "react";
 
-const Carousel=({img1,img2,img3,img4})=>{
+const Carousel=({img1,img2,img3,img4,img5,img6,img7,img8,img9})=>{
     const [img,setimg] = useState(img1)
     let [count,setcount] = useState(0)
-    const Pic = [img1,img2,img3,img4]
+    const Pic = [img1,img2,img3,img4,img5,img6,img7,img8,img9]
     let s = Pic.length-1
     if(count<0){
     count=0
