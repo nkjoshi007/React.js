@@ -72,5 +72,17 @@ color: white;
 text-align: center;  
 color: #393d31;
 }
-
-  
+.carousel{
+  background-image: linear-gradient(green,yellow);
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+.carousel img{
+  width: 150px;
+height: 150px;
+border-radius: 100px;
+margin-left: 50px;
+margin-top: 50px;
+border: 2px solid #925151;
+}
