@@ -39,9 +39,9 @@ setcount(--count)
         <>
         <h1 className="center">Race-3 Ka Salman Khan</h1>
         <div className="carousel">
-        <button onClick={Previous}>&lt;</button>
+        <button className="btn" onClick={Previous}>&lt;</button>
         <img src={img} alt="Network problem" />
-        <button onClick={Next}>&gt;</button>
+        <button className="btn" onClick={Next}>&gt;</button>
         </div>
         </>
     )
