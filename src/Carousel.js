@@ -6,12 +6,12 @@ const Carousel=({img1,img2,img3,img4,img5,img6,img7,img8,img9})=>{
     const Pic = [img1,img2,img3,img4,img5,img6,img7,img8,img9]
     let s = Pic.length-1
     if(count<0){
-    count=0
-    }else if(count>s){
     count=s
+    }else if(count>s){
+    count=0
     }
     const Next=()=>{
-    setcount(count+1)
+    setcount(++count)
     let ide =Pic[count]
     if(count>=0 && count<=s){
         setimg(ide)
@@ -23,7 +23,7 @@ const Carousel=({img1,img2,img3,img4,img5,img6,img7,img8,img9})=>{
     console.log(count)
 }
 const Previous=()=>{
-setcount(count-1)
+setcount(--count)
     let ide =Pic[count]
     if(count<=(Pic.length-1) && count>0){
         setimg(ide)
