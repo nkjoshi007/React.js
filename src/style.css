@@ -103,3 +103,13 @@ transform: rotate(1080deg);
 .center{
   text-align: center;
 }
+.Qna{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  background-image: linear-gradient(skyblue,#393d31);
+}
+.Qna p{
+  margin: 20px;
+}
