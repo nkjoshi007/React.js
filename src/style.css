@@ -113,3 +113,26 @@ transform: rotate(1080deg);
 .Qna p{
   margin: 20px;
 }
+.Todolist{
+  background-image: linear-gradient(red,green);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 10px 10px 10px;
+  flex-direction: column;
+}
+.list{
+  background-image: linear-gradient(#7a5d79,#b953d5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 10px 10px 10px;
+  flex-direction: row;
+}
+.list input{
+  
+  margin: 10px 10px 10px 10px;
+}
+.list ul{
+list-style: none;  
+}
