@@ -8,18 +8,18 @@ const Que=({Sawal,hint})=>{
     if(message===null){
         button.disabled=true
     }
-    let M = message.toUpperCase()
-    let A =Ans.toUpperCase()
-         if(M===A){
-             alert("this is right")
-             console.log(M +" "+ A)
-         }else{
-             alert("this is wrong")
-             console.log(M + " "+A)
-         }
+    
     const Check=(e)=>{
         e.preventDefault()
-      
+        let M = message.toUpperCase()
+        let A =Ans.toUpperCase()
+             if(M===A){
+                 alert("this is right")
+                 console.log(M +" "+ A)
+             }else{
+                 alert("this is wrong")
+                 console.log(M + " "+A)
+             }
             }
     return(
     <>
@@ -27,7 +27,7 @@ const Que=({Sawal,hint})=>{
     <div className="Qna">
     <p>Q: {Sawal} ({hint})</p>
     <textarea rows={10} cols={30}  onChange = {(e) =>{setMessage(e.target.value) }}  value={message}  placeholder="write your answer here"/>
-    <button id="submit" className="btn" onClick={Check}>Submit</button>
+    <button disabled={message.length === 0 } id="submit" className="btn" onClick={Check}>Submit</button>
     </div>
     </>
     )
