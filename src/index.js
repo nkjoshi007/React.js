@@ -19,6 +19,7 @@ import Carousel from './Carousel';
 import Qna from './Qna';
 import Todolist from './Todolist';
 import Context from './Context';
+import Memo from './Memo';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
@@ -47,6 +48,7 @@ root.render(
   <Qna Sawal1={"where is India ?"} Ans={"west"} Hint={"only Direction"}/>
   <Todolist />
   <Context/>
+  <Memo/>
   </>
   
 
