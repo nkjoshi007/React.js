@@ -1,16 +1,21 @@
-import { useState } from "react"
-import Memo2 from "./Memo2"
-const Memo =()=>{
-    const [count,setcount] = useState(0)
-return(
+import { useMemo, useState } from "react"
+
+  
+  
+  const Memo=()=>{
+    const[add,setAdd] = useState(0)
+  const Multiply=useMemo(()=>{
+    console.log("hi")
+    return add*10
+  },[add])
+   return(
     <>
-    <div>
-        <h1>{count}</h1>
-        <button onClick={()=>{setcount(count=>count+1)}}>add count</button>
-        <button onClick={()=>{setcount(count=>count-1)}}>minus count</button>
-        <Memo2/>
-    </div>
+    <h1>{add}</h1>
+    <button onClick={()=>setAdd(add+1)}>Add</button>
+    <button onClick={()=>setAdd(add-1)}>Minus</button>
+    <h1>:{Multiply}</h1>
+    <button onClick={Multiply}>Minus</button>
     </>
-)
-}
-export default Memo;
+   )
+  }
+  export default Memo
