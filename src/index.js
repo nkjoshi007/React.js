@@ -20,6 +20,9 @@ import Qna from './Qna';
 import Todolist from './Todolist';
 import Context from './Context';
 import Memo from './Memo';
+import Ref from './Ref';
+import Effect from './Effect';
+import Reducer from './Reducer';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
@@ -49,6 +52,9 @@ root.render(
   <Todolist />
   <Context/>
   <Memo/>
+  <Ref/>
+  <Effect/>
+  <Reducer/>
   </>
   
 

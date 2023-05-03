@@ -1,3 +1,5 @@
+import { memo } from "react";
+
 const Callback=({name,count})=>{
 
   console.log(`it's Callback`)
@@ -6,4 +8,4 @@ const Callback=({name,count})=>{
     </>
   )
 }
-export default Callback;
+export default memo(Callback);

@@ -24,3 +24,5 @@ const gender="Male"
 }
 export default Context;
 export {data1,data2,data3}
+//useContext
+// this is use for solving the prop drilling
