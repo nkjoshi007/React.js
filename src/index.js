@@ -21,6 +21,7 @@ import Todolist from './Todolist';
 import Context from './Context';
 import Memo from './Memo';
 import Ref from './Ref';
+import Effect from './Effect';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
@@ -51,6 +52,7 @@ root.render(
   <Context/>
   <Memo/>
   <Ref/>
+  <Effect/>
   </>
   
 
