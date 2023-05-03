@@ -20,6 +20,7 @@ import Qna from './Qna';
 import Todolist from './Todolist';
 import Context from './Context';
 import Memo from './Memo';
+import Ref from './Ref';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
@@ -49,6 +50,7 @@ root.render(
   <Todolist />
   <Context/>
   <Memo/>
+  <Ref/>
   </>
   
 
