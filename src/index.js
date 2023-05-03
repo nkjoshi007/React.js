@@ -22,6 +22,7 @@ import Context from './Context';
 import Memo from './Memo';
 import Ref from './Ref';
 import Effect from './Effect';
+import Reducer from './Reducer';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
@@ -53,6 +54,7 @@ root.render(
   <Memo/>
   <Ref/>
   <Effect/>
+  <Reducer/>
   </>
   
 
