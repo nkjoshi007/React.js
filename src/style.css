@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
 }
+body{
+  background-color: #30312e;
+  color: white;
+}
 .avatar {
     border-radius: 50%;
   }
@@ -135,4 +139,23 @@ transform: rotate(1080deg);
 }
 .list ul{
 list-style: none;  
+}
+.navBar{
+  margin: 40 40 ;
+}
+.navBar ul{
+  display: flex;
+ list-style: none;
+ align-items: center;
+ justify-content: center;
+}
+
+.navBar ul li{
+ list-style: none;
+ margin: 0px 10px;
+ cursor: pointer;
+}
+.link {
+  text-decoration: none;
+  color: white;
 }

@@ -18,7 +18,7 @@ import Callback from "./Callback"
     <h1>{minus}</h1>
     <button onClick={()=>setMinus(minus-1)}>Minus</button>
     {/* <h1>:{Multiply}</h1> */}
-    <Callback name={Func} count={add}/>
+    <Callback name={Func}/>
     </>
    )
   }
