@@ -141,6 +141,10 @@ transform: rotate(1080deg);
 list-style: none;  
 }
 .navBar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   margin: 40 40 ;
 }
 .navBar ul{
@@ -153,9 +157,17 @@ list-style: none;
 .navBar ul li{
  list-style: none;
  margin: 0px 10px;
- cursor: pointer;
+
 }
+
 .link {
   text-decoration: none;
   color: white;
+  background-color: red;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.link:hover {
+  text-decoration: none;
+  color: rgb(201, 200, 200);
 }
