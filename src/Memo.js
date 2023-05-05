@@ -1,7 +1,6 @@
 import { useCallback, useState } from "react"
 import Callback from "./Callback"
   
-  
   const Memo=()=>{
     const[add,setAdd] = useState(0)
     const[minus,setMinus] = useState(100)
@@ -19,7 +18,7 @@ import Callback from "./Callback"
     <h1>{minus}</h1>
     <button onClick={()=>setMinus(minus-1)}>Minus</button>
     {/* <h1>:{Multiply}</h1> */}
-    <Callback name={Func}/>
+    <Callback name={Func} count={add}/>
     </>
    )
   }
@@ -30,4 +29,4 @@ import Callback from "./Callback"
 
 
 // useCallback
-// this is the hook which can stop the rendering fully or we can use dependencies for rendering the function, we have to use memo to bind the component with memo
+// this is the hook which can stop the rendering fully or we can use dependencies for rendering the function, we have to use memo to bind the component with memo, it is also render with one dependency
